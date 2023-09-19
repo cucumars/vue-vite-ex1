@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     open: true,
-  }
+  },
+  base: 'https://cucumars.github.io/vue-vite-ex1/',
   
 })
